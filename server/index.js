@@ -1,3 +1,24 @@
+/**
+ * ---------------------------------------------
+ *              KVG Bus Express API
+ * ---------------------------------------------
+ * 
+ * Description:
+ * This module initializes and manages the Express API server, handling incoming
+ * requests, middleware configurations, and endpoint definitions.
+ * 
+ * Author: Maximilian Verwiebe
+ * Created: 09.08.2023
+ * 
+ * Dependencies:
+ * - express: Web server framework
+ * 
+ * Usage:
+ * This file should be executed to start the API server. Typically run with `node server/index.js`.
+ * ---------------------------------------------
+ */
+
+
 const config = require('../config.json')
 const express = require('express')
 const app = express()
@@ -5,10 +26,24 @@ const port = config.port;
 const validApiKey = config.apiKey;
 const debugMode = config.debugMode;
 
-function formatTwoDigits(n) {
-    return n < 10 ? '0' + n : n;
+/**
+ * Formats a number n into a string with two digits
+ * 
+ * @function
+ * @param {Number} n - The number to format
+ * @return {String} - The formatted number
+ */
+ const formatTwoDigits = (n) => {
+    return n < 10 ? '0' + n : n; //condition ? expression1 : expression2; if condition then expression1 else expression2
 }
 
+/**
+ * Prints a debug messages
+ * 
+ * @function
+ * @param {String} type - The type, element of {"INFO", "ERROR"}
+ * @param {String} message - The message to be printed
+ */
 const debug = (type, message) => {
     var currentdate = new Date(); 
     var hours = formatTwoDigits(currentdate.getHours());
@@ -28,6 +63,14 @@ const debug = (type, message) => {
     console.log(output)
 }
 
+/**
+ * Middleware to validate the API key provided in a request.
+ * 
+ * @function
+ * @param {Object} req - The Express request object
+ * @param {Object} res - The Express response object
+ * @param {Function} next - The next function in the Express middleware chain
+ */
 const validateApiKey = (req, res, next) => {
     const apiKey = req.header('X-API-KEY');
 
@@ -43,13 +86,31 @@ const validateApiKey = (req, res, next) => {
     next();
 }
 
+/**
+ * GET endpoint for '/request_kvg'.
+ * 
+ * Responses:
+ * - 200 OK: JSON Object with information
+ * - 401 Unauthorized: If the API key is missing
+ * - 403 Forbidden: If the API key is invalid
+ * 
+ * @function
+ * @param {Object} req - The Express request object.
+ * @param {Object} res - The Express response object.
+ */
 app.get('/request_kvg', validateApiKey, async (req, res) => {
     if (debugMode) {
         debug("INFO", "New request at: /request_kvg from " + req.ip)
     }
     res.json({ message: "Done!" });
-});
+}); // WIP
 
+/**
+ * Starts the Express server and listens on the specified port
+ *
+ * @function
+ * @param {number} port - The port number on which the server listens
+ */
 app.listen(port, () => {
   console.log(`
     -----------------------------------------------

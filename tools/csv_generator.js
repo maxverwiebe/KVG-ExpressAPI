@@ -1,3 +1,7 @@
+//uncommented
+
+//Fetches in a slow way
+
 const axios = require('axios');
 const fs = require('fs');
 

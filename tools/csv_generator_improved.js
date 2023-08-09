@@ -1,15 +1,44 @@
+/**
+ * ---------------------------------------------
+ *           KVG Stop Name Fetcher Module
+ * ---------------------------------------------
+ * 
+ * Retrieves stop names from the KVG API and saves the data in CSV format.
+ * This is needed to know which stopNameID belongs to which stopName.
+ * 
+ * Dependencies:
+ * - axios: Used for HTTP requests
+ * - fs: For writing data to a file
+ * 
+ * Configuration:
+ * - baseURL: Base URL for the API requests.
+ * - mode: Request mode (departure).
+ * - concurrentRequests: Number of simultaneous requests to the API.
+ * 
+ * Functions:
+ * - fetchStopName(stopId): Retrieves the stop name for a given stop ID.
+ * - formatStopName(stopName): Formats the stop name for CSV storage.
+ * - saveToCSV(): Saves all fetched stop names in a CSV file.
+ * 
+ * Execution:
+ * On module start, the saveToCSV() function is invoked to fetch and store data.
+ * ---------------------------------------------
+ */
+ const axios = require('axios');
+ const fs = require('fs');
+
 const axios = require('axios');
 const fs = require('fs');
 
 const baseURL = 'https://www.kvg-kiel.de/internetservice/services/passageInfo/stopPassages/stop?stop=';
 const mode = '&mode=departure';
 
-const concurrentRequests = 100; // Gleichzeitige Anfragen
+const concurrentRequests = 100;
 
 const fetchStopName = async (stopId) => {
     try {
         const response = await axios.get(baseURL + stopId + mode);
-        console.log("FOUND at " + stopId)
+        console.log("Found something at " + stopId)
         return {
             stopId,
             stopName: response.data.stopName
@@ -20,6 +49,7 @@ const fetchStopName = async (stopId) => {
     }
 };
 
+// WIP
 const formatStopName = (stopName) => {
     stopName = stopName.replace(" ", "-");
     stopName = stopName.replace(",", "").toLowerCase();

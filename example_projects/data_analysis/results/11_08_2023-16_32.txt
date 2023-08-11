@@ -1,0 +1,3 @@
+Start: 11_08_2023-16_32
+Duration: 1800s
+Terminating at 11_08_2023-17_03

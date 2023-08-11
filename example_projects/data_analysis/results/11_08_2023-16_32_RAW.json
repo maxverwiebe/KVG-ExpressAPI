@@ -1,0 +1,668 @@
+{
+    "60839568964898320": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "16:30",
+        "patternText": "31",
+        "delay": 120
+    },
+    "60839568965074445": {
+        "direction": "Strande",
+        "plannedTime": "16:32",
+        "patternText": "13",
+        "delay": 60
+    },
+    "60839568965414418": {
+        "direction": "Hassee",
+        "plannedTime": "16:33",
+        "patternText": "51",
+        "delay": 0
+    },
+    "60839568965307919": {
+        "direction": "Kroog",
+        "plannedTime": "16:33",
+        "patternText": "34",
+        "delay": 0
+    },
+    "60839568965328394": {
+        "direction": "Suchsdorf",
+        "plannedTime": "16:33",
+        "patternText": "42",
+        "delay": 0
+    },
+    "60839568965410320": {
+        "direction": "Uni/Botan. Garten",
+        "plannedTime": "16:33",
+        "patternText": "50",
+        "delay": 120
+    },
+    "60839568965549578": {
+        "direction": "Friedrichsort",
+        "plannedTime": "16:35",
+        "patternText": "91",
+        "delay": 0
+    },
+    "60839568965369356": {
+        "direction": "Schl\u00fcsbek",
+        "plannedTime": "16:33",
+        "patternText": "43",
+        "delay": 60
+    },
+    "60839568965463563": {
+        "direction": "Russee",
+        "plannedTime": "16:35",
+        "patternText": "62",
+        "delay": 0
+    },
+    "60839568964992524": {
+        "direction": "Wik Kanal",
+        "plannedTime": "16:36",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568965365261": {
+        "direction": "CITTI-PARK",
+        "plannedTime": "16:36",
+        "patternText": "43",
+        "delay": 180
+    },
+    "60839568965557768": {
+        "direction": "Melsdorf",
+        "plannedTime": "16:35",
+        "patternText": "91",
+        "delay": 120
+    },
+    "60839568965455369": {
+        "direction": "Suchsdorf",
+        "plannedTime": "16:37",
+        "patternText": "22",
+        "delay": 120
+    },
+    "60839568965275151": {
+        "direction": "Kronshagen",
+        "plannedTime": "16:36",
+        "patternText": "34",
+        "delay": 60
+    },
+    "60839568965037571": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "16:37",
+        "patternText": "11",
+        "delay": 120
+    },
+    "60839568965156362": {
+        "direction": "Schwentinental",
+        "plannedTime": "16:38",
+        "patternText": "22",
+        "delay": 60
+    },
+    "60839568965451272": {
+        "direction": "Suchsdorf",
+        "plannedTime": "16:41",
+        "patternText": "61",
+        "delay": 0
+    },
+    "60839568965094923": {
+        "direction": "Laboe",
+        "plannedTime": "16:40",
+        "patternText": "14",
+        "delay": 120
+    },
+    "60839568965197317": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "16:40",
+        "patternText": "32",
+        "delay": 120
+    },
+    "60839568965193220": {
+        "direction": "Wik",
+        "plannedTime": "16:42",
+        "patternText": "32",
+        "delay": 60
+    },
+    "60839568965524996": {
+        "direction": "Uni/Botan. Garten",
+        "plannedTime": "16:40",
+        "patternText": "81",
+        "delay": 60
+    },
+    "60839568964906510": {
+        "direction": "Mettenhof",
+        "plannedTime": "16:43",
+        "patternText": "31",
+        "delay": 60
+    },
+    "60839568965344778": {
+        "direction": "Meimersdorf",
+        "plannedTime": "16:42",
+        "patternText": "42",
+        "delay": 120
+    },
+    "60839568965049859": {
+        "direction": "Wik Kanal",
+        "plannedTime": "16:44",
+        "patternText": "11",
+        "delay": 0
+    },
+    "60839568964996620": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "16:44",
+        "patternText": "11",
+        "delay": 180
+    },
+    "60839568965180944": {
+        "direction": "Suchsdorf",
+        "plannedTime": "16:41",
+        "patternText": "81",
+        "delay": 480
+    },
+    "60839568965139976": {
+        "direction": "Mettenhof",
+        "plannedTime": "16:45",
+        "patternText": "14",
+        "delay": 60
+    },
+    "60839568965541391": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "16:45",
+        "patternText": "31",
+        "delay": 60
+    },
+    "60839568965418513": {
+        "direction": "KVG-Verwaltung",
+        "plannedTime": "16:45",
+        "patternText": "52",
+        "delay": 240
+    },
+    "60839568965385747": {
+        "direction": "R\u00f6nne",
+        "plannedTime": "16:45",
+        "patternText": "45",
+        "delay": 360
+    },
+    "60839568965053965": {
+        "direction": "Schilksee",
+        "plannedTime": "16:47",
+        "patternText": "12",
+        "delay": 60
+    },
+    "60839568965393939": {
+        "direction": "Reventloubr\u00fccke",
+        "plannedTime": "16:48",
+        "patternText": "51",
+        "delay": 120
+    },
+    "60839568965398032": {
+        "direction": "Hassee",
+        "plannedTime": "16:48",
+        "patternText": "50",
+        "delay": 0
+    },
+    "60839568965496331": {
+        "direction": "Wellingdorf",
+        "plannedTime": "16:47",
+        "patternText": "72",
+        "delay": 60
+    },
+    "60839568965312014": {
+        "direction": "Tannenberg",
+        "plannedTime": "16:48",
+        "patternText": "41",
+        "delay": 60
+    },
+    "60839568965287437": {
+        "direction": "Kroog",
+        "plannedTime": "16:48",
+        "patternText": "34",
+        "delay": 60
+    },
+    "60839568965426704": {
+        "direction": "Krummbogen",
+        "plannedTime": "16:51",
+        "patternText": "52",
+        "delay": 60
+    },
+    "60839568965148170": {
+        "direction": "Mettenhof",
+        "plannedTime": "16:50",
+        "patternText": "61",
+        "delay": 60
+    },
+    "60839568965025291": {
+        "direction": "Wik Kanal",
+        "plannedTime": "16:51",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568965029387": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "16:52",
+        "patternText": "11",
+        "delay": 120
+    },
+    "60839568965291532": {
+        "direction": "Kronshagen",
+        "plannedTime": "16:51",
+        "patternText": "34",
+        "delay": 120
+    },
+    "60839568965504523": {
+        "direction": "Kronshagen",
+        "plannedTime": "16:53",
+        "patternText": "72",
+        "delay": 0
+    },
+    "60839568965172753": {
+        "direction": "Strande",
+        "plannedTime": "16:54",
+        "patternText": "30S",
+        "delay": 60
+    },
+    "60839568965131785": {
+        "direction": "Heikendorf",
+        "plannedTime": "16:55",
+        "patternText": "15",
+        "delay": 120
+    },
+    "60839568965447181": {
+        "direction": "Uni/Botan. Garten",
+        "plannedTime": "16:55",
+        "patternText": "81",
+        "delay": 120
+    },
+    "60839568965209619": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "16:55",
+        "patternText": "32",
+        "delay": 120
+    },
+    "60839568965529101": {
+        "direction": "Suchsdorf",
+        "plannedTime": "16:56",
+        "patternText": "81",
+        "delay": 120
+    },
+    "60839568964902416": {
+        "direction": "Wik",
+        "plannedTime": "16:57",
+        "patternText": "32",
+        "delay": 0
+    },
+    "60839568965316109": {
+        "direction": "Meimersdorf",
+        "plannedTime": "16:57",
+        "patternText": "41",
+        "delay": 60
+    },
+    "60839568965471756": {
+        "direction": "Projensdorf",
+        "plannedTime": "16:56",
+        "patternText": "62",
+        "delay": 240
+    },
+    "60839568965217810": {
+        "direction": "Mettenhof",
+        "plannedTime": "16:58",
+        "patternText": "31",
+        "delay": 0
+    },
+    "60839568965033483": {
+        "direction": "Wik Kanal",
+        "plannedTime": "16:59",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568964972045": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "16:59",
+        "patternText": "11",
+        "delay": 120
+    },
+    "60839568965230092": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "17:00",
+        "patternText": "31",
+        "delay": 60
+    },
+    "60839568965373462": {
+        "direction": "Wellsee",
+        "plannedTime": "17:00",
+        "patternText": "45",
+        "delay": 120
+    },
+    "60839568965119497": {
+        "direction": "Mettenhof",
+        "plannedTime": "17:00",
+        "patternText": "15",
+        "delay": 60
+    },
+    "60839568965058061": {
+        "direction": "Strande",
+        "plannedTime": "17:02",
+        "patternText": "13",
+        "delay": 60
+    },
+    "60839568965402129": {
+        "direction": "Hassee",
+        "plannedTime": "17:03",
+        "patternText": "51",
+        "delay": 0
+    },
+    "60839568965303812": {
+        "direction": "Kroog",
+        "plannedTime": "17:03",
+        "patternText": "34",
+        "delay": 0
+    },
+    "60839568965348875": {
+        "direction": "Suchsdorf",
+        "plannedTime": "17:03",
+        "patternText": "42",
+        "delay": 180
+    },
+    "60839568965357071": {
+        "direction": "Schl\u00fcsbek",
+        "plannedTime": "17:03",
+        "patternText": "43",
+        "delay": 360
+    },
+    "60839568965406224": {
+        "direction": "Uni/Botan. Garten",
+        "plannedTime": "17:03",
+        "patternText": "50",
+        "delay": 0
+    },
+    "60839568965574151": {
+        "direction": "Friedrichsort",
+        "plannedTime": "17:05",
+        "patternText": "91",
+        "delay": 0
+    },
+    "60839568965545482": {
+        "direction": "Falckenstein",
+        "plannedTime": "17:05",
+        "patternText": "90S",
+        "delay": 0
+    },
+    "60839568965479946": {
+        "direction": "Russee",
+        "plannedTime": "17:05",
+        "patternText": "62",
+        "delay": 0
+    },
+    "60839568965565960": {
+        "direction": "Bf. Melsdorf",
+        "plannedTime": "17:05",
+        "patternText": "91",
+        "delay": 0
+    },
+    "60839568965361166": {
+        "direction": "CITTI-PARK",
+        "plannedTime": "17:06",
+        "patternText": "43",
+        "delay": 120
+    },
+    "60839568964976141": {
+        "direction": "Wik Kanal",
+        "plannedTime": "17:06",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568965041667": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "17:07",
+        "patternText": "11",
+        "delay": 120
+    },
+    "60839568965332492": {
+        "direction": "Suchsdorf",
+        "plannedTime": "17:07",
+        "patternText": "22",
+        "delay": 0
+    },
+    "60839568965295630": {
+        "direction": "Kronshagen",
+        "plannedTime": "17:06",
+        "patternText": "34",
+        "delay": 120
+    },
+    "60839568965205519": {
+        "direction": "Uni/Botan. Garten",
+        "plannedTime": "17:10",
+        "patternText": "81",
+        "delay": 0
+    },
+    "60839568965111306": {
+        "direction": "Laboe",
+        "plannedTime": "17:10",
+        "patternText": "14",
+        "delay": 0
+    },
+    "60839568965221904": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "17:10",
+        "patternText": "32",
+        "delay": 0
+    },
+    "60839568965152267": {
+        "direction": "Schwentinental",
+        "plannedTime": "17:08",
+        "patternText": "22",
+        "delay": 0
+    },
+    "60839568965250575": {
+        "direction": "Suchsdorf",
+        "plannedTime": "17:11",
+        "patternText": "81",
+        "delay": 120
+    },
+    "60839568965434889": {
+        "direction": "Suchsdorf",
+        "plannedTime": "17:11",
+        "patternText": "61",
+        "delay": 60
+    },
+    "60839568965213700": {
+        "direction": "Wik",
+        "plannedTime": "17:12",
+        "patternText": "32",
+        "delay": 60
+    },
+    "60839568965324299": {
+        "direction": "Meimersdorf",
+        "plannedTime": "17:12",
+        "patternText": "42",
+        "delay": 60
+    },
+    "60839568964910606": {
+        "direction": "Mettenhof",
+        "plannedTime": "17:13",
+        "patternText": "31",
+        "delay": 60
+    },
+    "60839568964967950": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "17:14",
+        "patternText": "11",
+        "delay": 0
+    },
+    "60839568965045763": {
+        "direction": "Wik Kanal",
+        "plannedTime": "17:14",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568965271054": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "17:15",
+        "patternText": "31",
+        "delay": 60
+    },
+    "60839568965422609": {
+        "direction": "KVG-Verwaltung",
+        "plannedTime": "17:15",
+        "patternText": "52",
+        "delay": 0
+    },
+    "60839568965389844": {
+        "direction": "R\u00f6nne",
+        "plannedTime": "17:15",
+        "patternText": "45",
+        "delay": 0
+    },
+    "60839568965090826": {
+        "direction": "Mettenhof",
+        "plannedTime": "17:15",
+        "patternText": "14",
+        "delay": 0
+    },
+    "60839568965500426": {
+        "direction": "Ellerbeker Weg",
+        "plannedTime": "17:17",
+        "patternText": "71",
+        "delay": 0
+    },
+    "60839568965086732": {
+        "direction": "Schilksee",
+        "plannedTime": "17:17",
+        "patternText": "12",
+        "delay": 0
+    },
+    "60839568965283343": {
+        "direction": "Kroog",
+        "plannedTime": "17:18",
+        "patternText": "34",
+        "delay": 0
+    },
+    "60839568965410321": {
+        "direction": "Hassee",
+        "plannedTime": "17:18",
+        "patternText": "50",
+        "delay": 180
+    },
+    "60839568965336591": {
+        "direction": "Tannenberg",
+        "plannedTime": "17:18",
+        "patternText": "41",
+        "delay": 0
+    },
+    "60839568965414419": {
+        "direction": "Reventloubr\u00fccke",
+        "plannedTime": "17:18",
+        "patternText": "51",
+        "delay": 0
+    },
+    "60839568965099019": {
+        "direction": "Mettenhof",
+        "plannedTime": "17:20",
+        "patternText": "61",
+        "delay": 0
+    },
+    "60839568965418514": {
+        "direction": "Krummbogen",
+        "plannedTime": "17:21",
+        "patternText": "52",
+        "delay": 0
+    },
+    "60839568965008908": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "17:22",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568965299725": {
+        "direction": "Kronshagen",
+        "plannedTime": "17:21",
+        "patternText": "34",
+        "delay": 120
+    },
+    "60839568964980237": {
+        "direction": "Wik Kanal",
+        "plannedTime": "17:21",
+        "patternText": "11",
+        "delay": 60
+    },
+    "60839568965488140": {
+        "direction": "Kronshagen",
+        "plannedTime": "17:23",
+        "patternText": "71",
+        "delay": 60
+    },
+    "60839568965168658": {
+        "direction": "Schilksee",
+        "plannedTime": "17:24",
+        "patternText": "30S",
+        "delay": 0
+    },
+    "60839568965135882": {
+        "direction": "Heikendorf",
+        "plannedTime": "17:25",
+        "patternText": "15",
+        "delay": 0
+    },
+    "60839568965226003": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "17:25",
+        "patternText": "32",
+        "delay": 0
+    },
+    "60839568965520910": {
+        "direction": "Uni/Botan. Garten",
+        "plannedTime": "17:25",
+        "patternText": "81",
+        "delay": 0
+    },
+    "60839568965484042": {
+        "direction": "Projensdorf",
+        "plannedTime": "17:26",
+        "patternText": "62",
+        "delay": 0
+    },
+    "60839568965508622": {
+        "direction": "Suchsdorf",
+        "plannedTime": "17:26",
+        "patternText": "81",
+        "delay": 60
+    },
+    "60839568964898321": {
+        "direction": "Wik",
+        "plannedTime": "17:27",
+        "patternText": "32",
+        "delay": 0
+    },
+    "60839568965320205": {
+        "direction": "Meimersdorf",
+        "plannedTime": "17:27",
+        "patternText": "41",
+        "delay": 60
+    },
+    "60839568965189137": {
+        "direction": "Mettenhof",
+        "plannedTime": "17:28",
+        "patternText": "31",
+        "delay": 0
+    },
+    "60839568965017100": {
+        "direction": "Dietrichsdorf",
+        "plannedTime": "17:29",
+        "patternText": "11",
+        "delay": 0
+    },
+    "60839568965004812": {
+        "direction": "Wik Kanal",
+        "plannedTime": "17:29",
+        "patternText": "11",
+        "delay": 0
+    },
+    "60839568965377559": {
+        "direction": "Wellsee",
+        "plannedTime": "17:30",
+        "patternText": "45",
+        "delay": 0
+    },
+    "60839568965246478": {
+        "direction": "Elmschenhagen",
+        "plannedTime": "17:30",
+        "patternText": "31",
+        "delay": 0
+    }
+}

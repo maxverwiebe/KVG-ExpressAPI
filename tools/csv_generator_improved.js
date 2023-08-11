@@ -19,13 +19,8 @@
  * - fetchStopName(stopId): Retrieves the stop name for a given stop ID.
  * - formatStopName(stopName): Formats the stop name for CSV storage.
  * - saveToCSV(): Saves all fetched stop names in a CSV file.
- * 
- * Execution:
- * On module start, the saveToCSV() function is invoked to fetch and store data.
  * ---------------------------------------------
  */
- const axios = require('axios');
- const fs = require('fs');
 
 const axios = require('axios');
 const fs = require('fs');
@@ -38,7 +33,7 @@ const concurrentRequests = 100;
 const fetchStopName = async (stopId) => {
     try {
         const response = await axios.get(baseURL + stopId + mode);
-        console.log("Found something at " + stopId)
+        console.log("\x1b[90m", "Found something at " + stopId)
         return {
             stopId,
             stopName: response.data.stopName
@@ -51,18 +46,21 @@ const fetchStopName = async (stopId) => {
 
 // WIP
 const formatStopName = (stopName) => {
-    stopName = stopName.replace(" ", "-");
-    stopName = stopName.replace(",", "").toLowerCase();
+    stopName = stopName.replace(/[^a-z0-9äöüß]+/gi, '-'); //replaces every non-alphanumeric number by "-" but keeps every "äöü"
+    stopName = stopName.replace(/-{2,}/g, '-'); //replaces multiple occurencces of "-" by a single "-" 
+    stopName = stopName.toLowerCase();
 
     return stopName
 }
 
 const saveToCSV = async () => {
-    let csvData = 'STOPID,stopName\n';
+    console.log("\x1b[32m", "Successfully started the generator.")
 
-    for (let i = 1000; i <= 2000; i += concurrentRequests) {
+    let csvData = 'stopid,stopname\n';
+
+    for (let i = 1; i <= 10000; i += concurrentRequests) {
         const promises = [];
-        for (let j = 0; j < concurrentRequests && i + j <= 10000; j++) {
+        for (let j = 1; j < concurrentRequests && i + j <= 5000; j++) {
             promises.push(fetchStopName(i + j));
         }
         
@@ -75,7 +73,9 @@ const saveToCSV = async () => {
         }
     }
 
-    fs.writeFileSync('stopNames.csv', csvData);
+    console.log("\x1b[32m", "Finished the search.")
+    fs.writeFileSync('stopname_stopid_output.csv', csvData)
+    console.log("\x1b[32m", "Successfully saved the output.")
 };
 
 saveToCSV();

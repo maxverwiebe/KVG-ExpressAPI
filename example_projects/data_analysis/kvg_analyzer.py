@@ -51,7 +51,7 @@ class KVGAnalyzer():
         self._addResult_(f"Duration: {self.endTime}s", True, False)
 
         # make sure station was found
-        testreq = requests.get(f"http://localhost:3000/stations/get_departing_busses_from_station/{config['stopType']}/{config['stopIdent']}", headers={"X-API-KEY": API_KEY})
+        testreq = requests.get(f"http://localhost:3000/stations/get_departing/{config['stopType']}/{config['stopIdent']}", headers={"X-API-KEY": API_KEY})
         if testreq.status_code != 200:
             self._addResult_("An error occured while trying to connect to the API:", True, True)
             self._addResult_(str(testreq.status_code) + " - " + testreq.reason, True, True)
@@ -63,7 +63,7 @@ class KVGAnalyzer():
         self._cache["busses"] = {}
 
         while self._currentTime <= self.endTime:
-            req = requests.get(f"http://localhost:3000/stations/get_departing_busses_from_station/{config['stopType']}/{config['stopIdent']}", headers={"X-API-KEY": API_KEY})
+            req = requests.get(f"http://localhost:3000/stations/get_departing/{config['stopType']}/{config['stopIdent']}", headers={"X-API-KEY": API_KEY})
             if req.status_code != 200:
                 self._addResult_("An error occured while trying to connect to the API:", True, True)
                 self._addResult_(str(req.status_code) + " - " + req.reason, True, True)

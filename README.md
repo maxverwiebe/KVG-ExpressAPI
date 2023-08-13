@@ -61,25 +61,7 @@ The generator sends requests to the unofficial API of the KVG to assign the stop
   - `401 Unauthorized`: Missing API key
   - `403 Forbidden`: Invalid API key
 
-**Example using Axios**:
-
-```javascript
-const axios = require('axios');
-
-axios.get('http://your-api-url/request_kvg', {
-  headers: {
-    'X-API-KEY': 'your-api-key'
-  }
-})
-.then(response => {
-  console.log(response.data);
-})
-.catch(error => {
-  console.error('Error:', error);
-});
-```
-
-### 2. `/stations/get_departing_busses_from_station/:type/:id`
+### 2. `/stations/get_departing_busses/:type/:id`
 
 - **Method**: GET
 - **Description**: Fetches departing buses from a station.
@@ -95,25 +77,7 @@ axios.get('http://your-api-url/request_kvg', {
   - `404 Not Found`: Bus station not found
   - `500 Internal Server Error`: Error fetching station ID
 
-**Example using Axios**:
-
-```javascript
-const axios = require('axios');
-
-axios.get('http://your-api-url/stations/get_departing_busses_from_station/name/StationName', {
-  headers: {
-    'X-API-KEY': 'your-api-key'
-  }
-})
-.then(response => {
-  console.log(response.data);
-})
-.catch(error => {
-  console.error('Error:', error);
-});
-```
-
-### 3. `/stations/get_busses_from_station/:type/:id`
+### 3. `/stations/get_busses/:type/:id`
 
 - **Method**: GET
 - **Description**: Fetches all buses from a station.
@@ -134,7 +98,7 @@ axios.get('http://your-api-url/stations/get_departing_busses_from_station/name/S
 ```javascript
 const axios = require('axios');
 
-axios.get('http://your-api-url/stations/get_busses_from_station/name/StationName', {
+axios.get('http://your-api-url/stations/get_busses/name/StationName', {
   headers: {
     'X-API-KEY': 'your-api-key'
   }
@@ -147,9 +111,24 @@ axios.get('http://your-api-url/stations/get_busses_from_station/name/StationName
 });
 ```
 
+### 4. `/trips/get_trip/:id`
+
+- **Method**: GET
+- **Description**: Fetches information about a running trip.
+- **Parameters**:
+  - `id`: The station name or ID
+- **Headers**:
+  - `X-API-KEY`: Your API key
+- **Responses**:
+  - `200 OK`: Successful request with JSON data
+  - `401 Unauthorized`: Missing API key
+  - `403 Forbidden`: Invalid API key
+  - `404 Not Found`: Bus station not found
+  - `500 Internal Server Error`: Error fetching station ID
+
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
+Contributions, issues, and feature requests are welcome!
 
 ## 📜 License
 

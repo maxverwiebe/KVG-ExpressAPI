@@ -20,8 +20,9 @@
  * ---------------------------------------------
  */
 
+// curl -i -X GET http://localhost:3000/stations/get_busses/id/1564 -H "X-API-KEY: AAN-2D9-ZFV-23O-8SH"
 
-const config = require('../config.json')
+const config = require("../config.json");
 const express = require('express')
 const fs = require('fs');
 const axios = require('axios');
@@ -30,7 +31,9 @@ const app = express()
 
 const { debug, getStationID } = require("./modules/misc");
 const { validateApiKey } = require("./modules/security");
-require('./routes/stations')(app);
+
+require("./routes/stations")(app);
+require("./routes/trips")(app);
 
 const port = config.port;
 const validApiKey = config.apiKey;

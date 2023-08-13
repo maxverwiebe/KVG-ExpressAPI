@@ -1,3 +1,4 @@
+const fs = require('fs');
 
 /**
  * Formats a number n into a string with two digits

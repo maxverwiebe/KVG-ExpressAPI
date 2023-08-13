@@ -1,10 +1,12 @@
 const { debug, getStationID } = require("../modules/misc.js");
 const { validateApiKey } = require("../modules/security");
+const config = require("../../config.json");
+
+const axios = require('axios');
 
 module.exports = function(app){
-
     /**
-     * GET endpoint for '/stations/get_departing_busses_from_station/:type/:id'.
+     * GET endpoint for '/stations/get_departing_busses/:type/:id'.
      * 
      * Responses:
      * - 200 OK: JSON Object with information
@@ -15,12 +17,12 @@ module.exports = function(app){
      * @param {Object} req - The Express request object.
      * @param {Object} res - The Express response object.
      */
-    app.get('/stations/get_departing_busses_from_station/:type/:id', validateApiKey, async (req, res) => {
+    app.get('/stations/get_departing_busses/:type/:id', validateApiKey, async (req, res) => {
         const type = req.params.type;
         let id = req.params.id;
 
-        if (debugMode) {
-            debug("INFO", `New request at: /stations/get_departing_busses_from_station/${type}/${id} from ${req.ip}`)
+        if (config.debugMode) {
+            debug("INFO", `New request at: /stations/get_departing_busses/${type}/${id} from ${req.ip}`)
         }
 
         if (type === "name") {
@@ -47,7 +49,7 @@ module.exports = function(app){
     }); // WIP
 
     /**
-     * GET endpoint for '/stations/get_busses_from_station/:type/:id'.
+     * GET endpoint for '/stations/get_busses/:type/:id'.
      * 
      * Responses:
      * - 200 OK: JSON Object with information
@@ -58,12 +60,12 @@ module.exports = function(app){
      * @param {Object} req - The Express request object.
      * @param {Object} res - The Express response object.
      */
-    app.get('/stations/get_busses_from_station/:type/:id', validateApiKey, async (req, res) => {
+    app.get('/stations/get_busses/:type/:id', validateApiKey, async (req, res) => {
         const type = req.params.type;
         let id = req.params.id;
 
-        if (debugMode) {
-            debug("INFO", `New request at: /stations/get_busses_from_station/${type}/${id} from ${req.ip}`)
+        if (config.debugMode) {
+            debug("INFO", `New request at: /stations/get_busses/${type}/${id} from ${req.ip}`)
         }
 
         if (type === "name") {
